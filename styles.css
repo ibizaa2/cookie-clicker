@@ -1,0 +1,24 @@
+    body {
+      background-color: #f8f9fa;
+    }
+
+.cookie-img {
+  display: block;      
+  margin: 0 auto;      
+  width: 200px;
+  cursor: pointer;
+  transition: transform 0.08s ease;
+}
+
+.cookie-img:hover {
+  transform: scale(1.05);
+}
+
+.cookie-img:active {
+  transform: scale(0.92);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
